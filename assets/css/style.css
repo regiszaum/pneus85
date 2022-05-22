@@ -1,0 +1,316 @@
+body {
+overflow-x: hidden;
+}
+
+.insta-hover{
+    font-style: normal !important;
+}
+
+.insta-hover:hover{
+    color: red !important;
+}
+
+#text-about {
+    transition: all 0.3s ease;
+}
+
+.clean-navbar.fixed-top, .clean-navbar.fixed-bottom {
+    box-shadow: 0px 0px 15px #999;
+}
+
+.col-img-items {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+.col h7 {
+    font-weight: bold;
+}
+
+.col h10 {
+    color: #FFF;
+}
+.col h7, h10{
+    padding: 2%;
+    margin: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 5%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  text-align: center;
+}
+
+.carousel-content h1 {
+    font-weight: bold;
+    font-style: oblique;
+
+}
+
+.carousel-content p {
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+}
+
+.whatsapp-button {
+    z-index: 1030;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    color: white;
+    font-size: 35px;
+    background-color: #25D366;
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 3.125rem;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.whatsapp-button:hover {
+    color: black;
+    animation: whatsapp-button 1s infinite;
+    animation-timing-function: linear;
+}
+
+.titulos-nossos {
+    display: flex;
+    justify-content: center;
+    padding: 2% 2% 2% 2%;
+}
+
+@keyframes whatsapp-button {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+@media screen and (max-width: 576px) {
+    .navbar, .navbar-brand {
+        padding-top: 5px;
+    }
+    
+    #logonav {
+        margin-left: 4.375rem;
+    }
+    
+    #bg-menu {
+        position: relative;
+        bottom: 3.125rem;
+    }
+
+    .nav-item {
+        width: 25% !important;
+        background-color: #FFF;
+        padding-left: 12px;
+        position: relative;
+        bottom: 30px;
+        right: 10px;
+    }
+
+    ul > li:first-child {
+        border-radius: 15px 15px 0px 0px;
+    }
+    ul > li:last-child {
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .txt-mbl {
+        display: none;
+    }
+
+    .col-mbl-resp {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+    .col-footer-resp {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .col-footer-resp-test {
+        width: 100%;
+    }
+
+    .services-container-img {
+        padding: 2% 15% 2% 15%;
+        height: auto;
+    }
+
+    .services-container-mbl {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulos-nossos {
+        display: flex;
+        justify-content: center;
+        flex-direction: column !important;
+        align-items: center;
+        align-self: center;
+    }
+
+}
+
+@media (min-width: 768px) {
+    footer > .container {
+    max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar, .navbar-brand {
+        padding-top: 5px;
+    }
+    
+    #logonav {
+        margin-left: 4.375rem;
+    }
+    
+    #bg-menu {
+        position: relative;
+        bottom: 3.125rem;
+    }
+
+    .nav-item {
+        width: 25% !important;
+        background-color: #FFF;
+        padding-left: 12px;
+        position: relative;
+        bottom: 30px;
+        right: 10px;
+    }
+
+    ul > li:first-child {
+        border-radius: 15px 15px 0px 0px;
+    }
+    ul > li:last-child {
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .col-footer-resp {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .col-footer-resp-test {
+        width: 100%;
+    }
+
+    .services-container-img {
+        padding: 0px 55px 0px 55px;
+        height: auto;
+    }
+
+    .services-container-mbl {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .navbar, .navbar-brand {
+        padding-top: 5px;
+    }
+    
+    #logonav {
+        margin-left: 4.375rem;
+    }
+    
+    #bg-menu {
+        position: relative;
+        bottom: 3.125rem;
+    }
+
+    .nav-item {
+        width: 25% !important;
+        background-color: #FFF;
+        padding-left: 12px;
+        position: relative;
+        bottom: 30px;
+        right: 10px;
+    }
+
+    ul > li:first-child {
+        border-radius: 15px 15px 0px 0px;
+    }
+    ul > li:last-child {
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    #bg-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-cols-services {
+        width: 100%;
+    }
+
+    .services-container-img {
+        padding: 0px 25px 0px 25px;
+        height: auto;
+    }
+
+    .services-container-mbl {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contatos-layout {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    #contatos-layout > .layout-mbl-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+    }
+
+    #contatos-layout > .layout-mbl-col > h1{
+        text-align: center;
+    }
+
+    #contatos-layout > .layout-mbl-col > p{
+        text-align: center;
+    }
+
+    .map-contato {
+        justify-content: center;
+        display: flex;
+        flex-direction: column !important;
+        align-self: center;
+        align-content: center;
+        width: 100%;
+    }
+
+    .map-contato > iframe {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .carousel-content {
+        width: 100%;
+    }
+}
